@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian Moniz Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div>
+          <h1>Brian Moniz</h1>
+        </div>
+        <div>
+          <img
+            class="portfolioImage"
+            src="Briancoding.jpeg"
+            alt="Brian coding"
+          />
+        </div>
+      </div>
+      <div class="section">
+        <span class="icons">Email: Bmoniz328@gmail.com</span>
+        <span class="icons"><img src="github.svg" alt="github logo" /><a href="https://github.com/BrianTheLion328">Github</a></span>
+        <span class="icons"><img src="linkedin.svg" alt="linkedin logo" /><a href="https://www.linkedin.com/in/brianmoniz328/">LinkedIn</a></span>
+      </div>
+      <div class="section">
+        <h3>Technologies</h3>
+        <table id="table">
+          <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+          </tr>
+          <tr>
+            <td>HTML5</td>
+            <td>Django</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>AJAX</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>Flask</td>
+            <td>Mongoose</td>
+            <td>MongoDB</td>
+            <td>OOP</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>Unittest</td>
+            <td>React</td>
+            <td></td>
+            <td>REST</td>
+          </tr>
+        </table>
+      </div>
+      <div class="section" id="projectList">
+        <h3>Video Game</h3>
+        <span>Whac-A-Mole game made with jQuery and JavaScript: <a href="https://eloquent-saha-de395b.netlify.app/">Game</a> | <a href="https://github.com/BrianTheLion328/arcade-game">Code </a></span>
+      </div>
+      <div id="contact">
+        <h3>Contact Me</h3>
+        <form action="/process" method="post">
+          <div class="section">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name"/>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email"/>
+          </div>
+          <div class="section">
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea>
+          </div>
+          <div class="section">
+            <input type="submit" value="Send Message"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
